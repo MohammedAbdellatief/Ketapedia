@@ -1,0 +1,266 @@
+.container, .row, .columns, section{
+    height: auto;
+    text-align: left;
+}
+/********about us********/
+
+.BG-Cover{
+    background-image: url("../img/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-color: #363092;
+}
+header{
+    background-color: #fff;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,.1);
+    padding: 5px 0;
+}
+.logo a{
+    display: block;
+}
+.logo .svg-logo {
+    width: 200px;
+    height: 37px;
+    padding-top: 3px;
+}
+
+.nav-links{
+    margin: 0;
+    cursor: default;
+    text-align: right;
+}
+
+.nav-links li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.nav-links li a {
+    list-style-type: none;
+    display: block;
+    color: #737272;
+    text-decoration: none;
+    padding: 3px 0;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.nav-links li a:hover {
+    color: #94d60a;
+}
+.aboutcon{
+    margin-top: -150px;
+    padding: 0 20px;
+}
+.abouttxt{
+    background-color: #fff;
+    padding: 30px;
+}
+.aboutcon h4{
+    font-weight: bold;
+    color:#fff;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 5rem;
+}
+.bold{
+    color: #363092;
+}
+/******** How to ******/
+.off-inner{
+    max-width: 80%;
+    margin: 40px auto;
+}
+.offline-pay, .online-pay{
+    text-align: left;
+    height: auto;
+    margin-bottom: 40px;
+}
+.BG-howto{
+    background-image: url("../img/howto-BG.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    background-position: center;
+}
+
+.title{
+    margin-bottom: 50px;
+}
+
+.title h1, .title p{
+    text-align: left;
+    padding-left: 15px;
+}
+.title p {
+    max-width: 47%;
+}
+
+.title h1{
+    font-weight: bold;
+    color: #363092;
+    padding-left: 10px;
+}
+
+.separator{
+    height: 10px;
+    width: 450px;
+}
+
+.list-method li{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+.list-method li div{
+    margin-top: 15px;
+}
+
+.number{
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    /* line-height: 40px; */
+    padding: 3px;
+    background: #fff;
+    border: 1px solid #7E7E7E;
+    color: #7E7E7E;
+    text-align: center;
+    vertical-align: middle;
+    /* font: 32px Arial, sans-serif; */
+    font-size: 14px;
+}
+.arrow-r{
+    margin-top: 90px;
+}
+.item p{
+    display: inline-block;
+    max-width: 72%;
+    vertical-align: text-top;
+}
+
+
+
+/*payment page*/
+.payment_steps li{
+    list-style-type: disc;
+    color: #353595;
+    border: solid 1px #eee;
+    padding: 20px;
+    border-radius:10px ;
+    background-color: #fafafa;
+    margin: 20px;
+}
+.payment_steps h2{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+#pointsContainer{
+    text-align: center;
+}
+.point-container{
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.07);
+    padding: 10px;
+    border-radius: 7px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    color: #000;
+    cursor: pointer;
+    min-width: 130px;
+}
+.point-container:hover{
+    background-color: #effbff;
+    box-shadow: 0 1px 2px rgba(0,0,0,.17);
+}
+.point-container.is-selected{
+    background-color: #94d60a;
+    box-shadow: 0 1px 2px rgba(0,0,0,.17);
+    color: #fff;
+}
+.number-of-books{
+    font-size: 1.8rem;
+    margin: 0 5px;
+    border-bottom: solid 1px rgba(0,0,0,.1);
+    padding: 5px;
+}
+.amount{
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding-top:5px;
+}
+
+.payment-types-container{
+    text-align: center;
+    padding: 10px;
+}
+
+.payment-types-container label{
+    display: inline-block;
+    margin: 20px;
+}
+.payment-types-container label img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.item-value{
+    text-align: center;
+}
+.item-value input{
+    width: 50%;
+    padding: 20px;
+}
+
+input.btn{
+    background-color: #94d60a;
+    padding: 25px;
+    display: block;
+    line-height: normal;
+    font-size: 1.5rem;
+    height: auto;
+    color:#fff;
+    border: none;
+    margin:40px auto 40px;
+}
+input.btn:hover{
+    background-color: #7bb600;
+    color: #fff;
+}
+
+.howto .innerText{
+    width: auto;
+    padding: 40px 0 10px 0 ;
+}
+.howto .innerText h1{
+    text-align: left;
+}
+.howto .blc{
+    text-align: center;
+}
+.howto img{
+    margin-bottom: 20px;
+}
+.steps{
+    overflow: hidden;
+    padding: 20px;
+}
+.steps li{
+    list-style-type: decimal;
+}
+.imgCont{
+    text-align: center;
+}
+
+/*contact*/
+.contactForm{
+    margin: 0 5%;
+}

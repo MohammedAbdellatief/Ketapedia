@@ -1,0 +1,159 @@
+body {
+  font: 16px/1.5 'Open Sans', Helvetica, Helvetica Neue, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  color: rgba(0, 0, 0, 0.9);
+  position: relative;
+}
+.innerText p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+strong {
+  color: rgba(0, 0, 0, 0.9);
+}
+section {
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+.ovh{
+  overflow: hidden;
+}
+.container{
+  width: 100%;
+  max-width: 1000px;
+}
+.container, .row, .columns{
+  height: 100%;
+}
+.hidden{
+  display: none;
+}
+.x-small{
+  font-size: 1rem;
+}
+.transition,a{
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.slow {
+  -webkit-transition: all 2s ease!important;
+  transition: all 2s ease!important
+}
+.delay {
+  transition-delay: 1s!important;
+  -webkit-transition-delay: 1s!important;
+  -moz-transition-delay: 1s!important;
+  -o-transition-delay: 1s!important
+}
+
+.btn, a.btn, input.btn{
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 100px;
+  color: #fff;
+  fill: #fff;
+  border: solid 2px #fff;
+  line-height: 20px;
+  text-decoration: none;
+
+}
+.btn:hover, a.btn:hover{
+  background-color: #7bb404;
+  color: #fff;
+  fill:#fff;
+}
+
+
+/* Center aligned first section */
+section .inner {
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+/* Centered content of the ScrollMagic card */
+.device p {
+  font-size: 140px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Letters hidden by default */
+.device p.screenA, .device p.screenB, .device p.screenC {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* ScrollMagic hat on top of letters */
+.device p.screenHat {
+  z-index: 2;
+}
+.device p.screenHat img {
+  max-width: 130px;
+}
+
+/* Bullet list */
+.features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+.features li {
+  position: relative;
+  padding-left: 17px;
+}
+
+/* A heart instead of a bullet */
+.features li:before {
+  content: '';
+  font-size: 11px;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  display: block;
+  color: #ff466a;
+}
+
+/*arrow bottom*/
+
+.btm_scroll{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom:0;
+  line-height: 40px;
+  text-align: center;
+  z-index: 99;
+}
+.arrow{
+  width: 35px;
+}
+
+.btm_scroll:hover .arrow path{
+  stroke-width: 9px;
+}
+
+

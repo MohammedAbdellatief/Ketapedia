@@ -1,0 +1,537 @@
+/*general to all sections*/
+.innerText h1{
+  color: #87c800;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-shadow: 0 3px 0 rgba(0,0,0,.05);
+}
+.innerText p{
+  padding: 0 30px;
+  font-size: 1.9rem;
+  color: rgba(0,0,0,.8);
+}
+.innerText {
+  padding: 2.5% 0;
+  width: 85%;
+  margin: auto;
+}
+.Mob_device{
+  display: none;
+}
+#html5-watermark{
+  display: none !important;
+}
+.html5boxFullscreen{
+  display: none !important;
+}
+.vid_thumb{
+  width: 247px;
+  height: 322px;
+  position: absolute;
+  bottom:50%;
+  left: 50%;
+  -ms-transform: translate(125px, 50%);
+  transform: translate(125px, 50%);
+  -webkit-transform: translate(125px, 50%);
+  z-index: 4;
+  background: url("../img/vThumb.png") no-repeat 2px 0 scroll transparent;
+  opacity: 0;
+}
+/*first section
+=================================================*/
+.device {
+  width: 300px;
+  height: 400px;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 50%;
+  left: 50%;
+  -ms-transform: translate(100px, 50%);
+  transform: translate(100px, 50%);
+  -webkit-transform: translate(100px, 50%);
+}
+.device svg{
+  width: 100%;
+  height: 100%;
+}
+.play{
+  width: 75px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(220px, -50%);
+  transform: translate(220px, -50%);
+  -webkit-transform: translate(220px, -50%);
+  z-index: 5;
+  -webkit-transition-property: padding;
+  transition-property: padding;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;text-align: center;
+  text-shadow: 0px 1px 1px #000;
+}
+.play:hover{
+  color: #fff;
+}
+.play svg{
+  stroke-width: 1px;
+  fill:rgba(0,0,0,.3);
+  margin-bottom:10px;
+}
+.play:hover svg{
+  stroke-width: 2px;
+  fill:#94d60a;
+}
+
+.intro{
+  background: #353595;
+  /*-webkit-background-size: cover;*/
+  /*-moz-background-size: cover;*/
+  /*-o-background-size: cover;*/
+  /*background-size: cover;*/
+  overflow: hidden;
+  clip: rect(auto, auto, auto, auto);
+  z-index: 3;
+}
+.logo svg{
+  width: 100%;
+}
+.intro .logo{
+  fill:#fff;
+}
+
+.innerS1{
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  z-index: 1;
+}
+div.cover {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  pointer-events: none;
+  z-index: 0;
+}
+img.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  overflow-x: hidden;
+  filter: blur(7px);
+  -webkit-filter: blur(7px);
+}
+.vp{
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 30px 0;
+}
+.App_links a{
+  font-size: 2rem;
+}
+.App_links span{
+  white-space: nowrap;
+  display: block;
+  text-align: left;
+  padding:0 20px 0 50px;
+}
+.App_links i{
+  display: inline-block;
+  float: left;
+}
+.App_links .icon{
+  width: 40px;
+  height: 40px;
+}
+.App_links .desktop{
+  width: 59px;
+  margin-right: 10px;
+}
+.device{
+  z-index: 2;
+}
+.device.top{
+  z-index: 3;
+}
+.device svg{
+  stroke-dasharray: 510px;
+  stroke-dashoffset: 510px;
+  opacity: 0;
+  -webkit-transition:inherit;
+  transition:inherit;
+}
+.device.draw svg{
+  opacity: 1;
+  stroke-dashoffset: 0;
+}
+.white path{
+  /*Stroke:#fff !important;*/
+  fill:#fff !important;
+}
+.white #reflection{
+  fill:#363092 !important;
+}
+
+
+
+/*Section two
+======================================*/
+#sec2{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffb5+22,ffffff+100 */
+  background: #ffffb5; /* Old browsers */ /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#ffffb5), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ffffb5 15%,#ffffff 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+  background: -webkit-linear-gradient(top, #ffffb5 15%, #ffffff 100%);
+  background: linear-gradient(to bottom,  #ffffb5 15%,#ffffff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffb5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}
+.covers{
+  width: 420px;
+  height: 320px;
+  font-size: 0;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 15px;
+  padding-top: 100px
+}
+.covers li{
+  width: 190px;
+  display: inline-block;
+  margin: 6px;
+  height: 95px;
+  overflow: hidden;
+}
+.covers li img{
+  width: 100%;
+}
+
+/*Section three
+======================================*/
+#sec3{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffb5+22,ffffff+100 */
+  background: #bdedff; /* Old browsers */ /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#e3f8ff), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #e3f8ff 15%,#ffffff 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+  background: -webkit-linear-gradient(top, #e3f8ff 15%, #ffffff 100%);
+  background: linear-gradient(to bottom,  #e3f8ff 15%,#ffffff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3f8ff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+.v_lab{
+  width: 350px;
+  margin:0 auto;
+  position: fixed;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  -ms-transform: translate(0, 200px);
+  transform: translate(0, 200px);
+  -webkit-transform: translate(0, 200px);
+  z-index: 10;
+  display: none;
+  z-index: 99;
+  pointer-events: none;
+}
+.innerS3 h1{
+  color: #06a7e2;
+}
+
+/*Section four
+======================================*/
+#sec4 {
+  background: #353595 url(../img/footer.png) no-repeat scroll 0 0;
+  height: 550px;
+  position: relative;
+  z-index: 1;
+}
+.laptop_bottom_cont{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.laptop_bottom{
+  position: absolute;
+  bottom: 77px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 320px;
+}
+.laptop_bottom svg{
+  fill:#fff;
+}
+.innerS4{
+  position: absolute;
+  top:20px;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+}
+.innerS5 {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  width: auto;
+}
+.innerS5 h3 {
+  font-size: 2.5rem;
+}
+.innerS4 h1 {
+  font-size: 4.5rem;
+  color: #fdd700;
+}
+.innerS4 p {
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.logo_bottom{
+  width: 80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 105px;
+  z-index: 2;
+}
+/*footer
+======================================*/
+footer{
+  background-color: #2f297d;
+  padding: 10px 0;
+}
+.copyRights{
+  text-align: center;
+}
+.copyRights p{
+  display: inline-block;
+  font-size: 12px;
+  vertical-align: middle;
+  margin: 0;
+  color: #fff;
+}
+.copyRights a{
+  display: inline-block;
+  width: 50px;
+  vertical-align: middle;
+}
+.footerLinks{
+  margin: 0;
+  cursor: default;
+  text-align: center;
+}
+.footerLinks li{
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0 10px;
+}
+.footerLinks li a{
+  list-style-type: none;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 3px 0;
+  font-size: 13px;
+}
+.footerLinks li a:hover{
+  color: #94d60a;
+}
+
+
+/* parallax
+======================================*/
+.parallax{
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  opacity: 1;
+  pointer-events:none;
+}
+.prlx_l,.prlx_r{
+  width: 150px;
+  float: left;
+  height: 85%;
+  position: relative;
+}
+.prlx_r{
+  float: right;
+}
+.prlx_lyr_1, .prlx_lyr_2, .prlx_lyr_3{
+  position: absolute;
+  height: 80%;
+  width: 100%;
+  top: 20%;
+  z-index: 1;
+}
+.prlx_lyr_3{
+  top: 35%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  filter: blur(5px);
+  z-index: 0;
+  opacity: .4;
+}
+.sqr{
+  position: absolute;
+}
+
+.sqr svg{
+  width: 100%;
+}
+
+.prlx_lyr_1 .sqr1{
+  width: 20px;
+  opacity: .70;
+  fill: #00C4B3;
+  left: 5%;
+  top: 5%;
+}
+.prlx_lyr_1 .sqr2{
+  width: 40px;
+  opacity: .60;
+  fill: yellow;
+  left: 60%;
+  top: 25%;
+}
+.prlx_lyr_1 .sqr3{
+  width: 60px;
+  opacity: .50;
+  fill: blue;
+  left: -3%;
+  top: 40%;
+}
+.prlx_r .prlx_lyr_1 .sqr3{
+  width: 50px;
+  opacity: .6;
+  fill: cyan;
+  top: 45%;
+}
+.prlx_lyr_1 .sqr4{
+  width: 100px;
+  opacity: .40;
+  fill: orange;
+  left: 12%;
+  top: 18%;
+}
+.prlx_r .prlx_lyr_1 .sqr4{
+  fill:orange;
+  top: 12.5%;
+}
+.prlx_lyr_2 .sqr1{
+  width: 90px;
+  opacity: .40;
+  fill: #06a7e2;
+  left: -20%;
+  top: 52%;
+}
+.prlx_lyr_2 .sqr2{
+  width: 20px;
+  opacity: .50;
+  fill: red;
+  left: 80%;
+  top: 40%;
+}
+.prlx_lyr_2 .sqr3{
+  width: 40px;
+  opacity: .60;
+  fill: purple;
+  left: 20%;
+  top: 36%;
+}
+.prlx_lyr_2 .sqr4{
+  width: 55px;
+  opacity: .70;
+  fill: #95D600;
+  left: 20%;
+  top: 10%;
+}
+
+.prlx_lyr_3 .sqr1 {
+  width: 100px;
+  opacity: .40;
+  fill: cyan;
+  left: 26%;
+  top: 60%;
+}
+.prlx_lyr_3 .sqr2{
+  width: 150px;
+  opacity: .50;
+  fill: #FFD700;
+  left: 80%;
+  top: 40%;
+}
+.prlx_lyr_3 .sqr3 {
+  width: 120px;
+  opacity: .60;
+  fill: #FF4612;
+  left: -50%;
+  top: 20%;
+}
+.prlx_lyr_3 .sqr4 {
+  width: 170px;
+  opacity: .70;
+  fill: #95D600;
+  left: 20%;
+  top: 0;
+}
+
+
+/*video lightbox
+===========================*/
+.lightboxcontainer {
+  width:100%;
+  text-align:left;
+}
+.lightboxleft {
+  width: 40%;
+  float:left;
+}
+.lightboxright {
+  width: 60%;
+  float:left;
+}
+.lightboxright iframe {
+  min-height: 390px;
+}
+.divtext {
+  margin: 36px;
+}
+@media (max-width: 800px) {
+  .lightboxleft {
+    width: 100%;
+  }
+  .lightboxright {
+    width: 100%;
+  }
+  .divtext {
+    margin: 12px;
+  }
+}

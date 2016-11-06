@@ -1,0 +1,267 @@
+/*==================================================
+#Media Queries
+================================================== */
+/* mini static version for tablets and hand held devices
+===========================================================*/
+.min_v .innerS1{
+    top: 0;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    position: relative;
+    margin: 50px auto 50px;
+}
+.min_v .device{
+    display: none;
+}
+.min_v .btm_scroll{
+    display: none;
+}
+.min_v .columns{
+    width: 100%;
+    margin: 0;
+}
+.min_v .play{
+    -ms-transform:none;
+    transform:none;
+    -webkit-transform: none;
+    height: 70px;
+    font-size: 1.4rem;
+    position: relative;
+    margin: 0 auto 90px;
+    left: 0;
+    top: 0;
+}
+
+.min_v .vp{
+    padding: 20px 0;
+}
+.min_v .Mob_device{
+    display: block;
+    width: 400px;
+    font-size: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.min_v .Mob_device svg{
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.min_v .Mob_device.perspective{
+    bottom: 0px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    height: 290px;
+    z-index: 0;
+}
+.min_v .Mob_device.perspective svg{
+    width: 380px;
+    -webkit-transform: rotate(90deg) rotateY(-80deg);
+    transform: rotate(90deg) rotateY(-80deg);
+}
+.min_v .covers{
+    position: static;
+    padding: 105px 0 0 0;
+    height: 530px;
+}
+.min_v .sec{
+    height: auto;
+}
+.min_v .v_lab{
+    display: block;
+    position: static;
+    bottom: auto;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    margin-bottom: 150px;
+}
+.min_v .innerS5, .min_v  .innerS4{
+    width:90%;
+    position: static;
+}
+.min_v .innerS5{
+    margin-bottom: 40px;
+}
+.min_v .intro{
+    height: auto;
+}
+.min_v .container, .min_v  .row, .min_v  .columns{
+    height: auto;
+}
+.min_v .laptop_bottom_cont{
+    display: none;
+}
+.min_v #sec4{
+    height: auto;
+}
+.min_v .footerLinks{
+    margin-bottom: 20px;
+}
+.min_v .vid_thumb, .min_v .parallax {
+    display: none;
+}
+
+
+/* #desktop
+================================================== */
+/* Note: Design for a width of 1000px and smaller */
+@media only screen and (max-width: 1100px) {
+}
+
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px and smaller */
+@media only screen and (max-width: 767px) {
+    .innerS1{
+        top:40px;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+    .device{
+        display: none;
+    }
+    .play{
+        -ms-transform:none;
+        transform:none;
+        -webkit-transform: none;
+        height: 70px;
+        font-size: 1.4rem;
+        position: relative;
+        margin: 80px auto 100px;
+        left: 0;
+        top: 0;
+    }
+    .vp{
+        padding: 20px 0;
+    }
+    .Mob_device{
+        display: block;
+        width: 400px;
+        font-size: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        left: 0;
+    }
+    .Mob_device svg{
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+    .Mob_device.perspective{
+        bottom: 0px;
+        -webkit-perspective: 1000px;
+        perspective: 1000px;
+        height: 290px;
+        z-index: 0;
+    }
+    .Mob_device.perspective svg{
+        width: 380px;
+        -webkit-transform: rotate(90deg) rotateY(-80deg);
+        transform: rotate(90deg) rotateY(-80deg);
+    }
+    .covers{
+        position: static;
+        padding: 110px 0 0 15px;
+        height: 500px;
+    }
+    .sec{
+        height: auto;
+    }
+    .v_lab{
+        display: block;
+        position: static;
+        bottom: auto;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        margin-bottom: 150px;
+    }
+    .innerS5, .innerS4{
+        width:90%;
+        position: static;
+    }
+    .innerS5{
+        margin-bottom: 40px;
+    }
+    .intro{
+        height: auto;
+    }
+    .container, .row, .columns{
+        height: auto;
+    }
+    .laptop_bottom_cont{
+        display: none;
+    }
+    #sec4{
+        height: auto;
+    }
+    .footerLinks{
+        margin-bottom: 20px;
+    }
+    .vid_thumb{
+        display: none;
+    }
+    .btm_scroll{
+        display: none;
+    }
+    .innerText {
+        padding: 7% 0;
+        width: 90%;
+    }
+    .parallax{
+        display: none;
+    }
+}
+
+/* #Mobile (Landscape)*/
+/*================================================== */
+/* Note: Design for a width of 480px  and smaller*/
+@media only screen and (max-width: 480px) {
+    html{
+        font-size: 50%;
+    }
+    .Mob_device{
+        width: 300px;
+    }
+    .innerS1{
+        margin: 30px auto 30px;
+    }
+    .container{
+        padding: 0 10px;
+    }
+    .v_lab {
+        width: 280px;
+        margin-bottom: 120px;
+    }
+    .Mob_device.perspective{
+        height: 220px;
+    }
+    .Mob_device.perspective svg{
+        width: 290px;
+    }
+    .covers li {
+        width: 145px;
+        margin: 5px;
+        height: 73px;
+    }
+    .covers {
+        padding: 80px 0 0 15px;
+        height: 380px;
+    }
+
+}
+
+/*	#Mobile (Portrait)*/
+/*================================================== */
+/* Note: Design for a width of 320px and smaller */
+@media only screen and (max-width: 320px) {
+
+}
+
+
