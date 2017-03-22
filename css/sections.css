@@ -94,8 +94,9 @@
   /*-o-background-size: cover;*/
   /*background-size: cover;*/
   overflow: hidden;
-  clip: rect(auto, auto, auto, auto);
   z-index: 3;
+  -webkit-clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
 }
 .logo svg{
   width: 100%;
