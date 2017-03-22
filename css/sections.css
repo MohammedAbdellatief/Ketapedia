@@ -95,8 +95,8 @@
   /*background-size: cover;*/
   overflow: hidden;
   z-index: 3;
-  -webkit-clip-path: inset(0 0 0 0);
-  clip-path: inset(0 0 0 0);
+  -webkit-clip-path: inset(1px);
+  clip-path: inset(1px);
 }
 .logo svg{
   width: 100%;
